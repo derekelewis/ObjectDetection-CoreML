@@ -12,7 +12,7 @@ import Vision
 class ObjectDetection_CoreMLTests: XCTestCase {
 
     // MARK: - Vision Properties
-    let image = UIImage(named: "IMG_8564")
+    let image = UIImage(named: "IMG_0101")
     var pixelBuffer: CVPixelBuffer?
     
     override func setUp() {
@@ -25,7 +25,7 @@ class ObjectDetection_CoreMLTests: XCTestCase {
     }
 
     func testPerformanceYOLOv5sModel() {
-        let model: VNCoreMLModel? = try? VNCoreMLModel(for: yolov5s().model)
+        let model: VNCoreMLModel? = try? VNCoreMLModel(for: best().model)
         let ssdRequest: VNCoreMLRequest? = VNCoreMLRequest(model: model!, completionHandler: nil)
         ssdRequest?.imageCropAndScaleOption = .scaleFill
         
