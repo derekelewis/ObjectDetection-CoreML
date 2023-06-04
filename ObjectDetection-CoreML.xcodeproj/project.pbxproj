@@ -19,8 +19,8 @@
 		558918EF22089FFE00F182BA /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558918EE22089FFE00F182BA /* Measure.swift */; };
 		C427E6B228C5D85B001279AD /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553366CE220489DD00A67647 /* UIImage+CVPixelBuffer.swift */; };
 		DD8C8D822A2C079E0051BEFF /* IMG_0101.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DD8C8D812A2C079E0051BEFF /* IMG_0101.jpeg */; };
-		DDE62DF22A2D37D300369AA1 /* best.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = DDE62DF12A2D37D300369AA1 /* best.mlpackage */; };
-		DDE62DF32A2D37D300369AA1 /* best.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = DDE62DF12A2D37D300369AA1 /* best.mlpackage */; };
+		DDE62DF82A2D3FA900369AA1 /* best.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = DDE62DF72A2D3FA900369AA1 /* best.mlpackage */; };
+		DDE62DF92A2D3FA900369AA1 /* best.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = DDE62DF72A2D3FA900369AA1 /* best.mlpackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,7 @@
 		558918EC2208218800F182BA /* DrawingBoundingBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBoundingBoxView.swift; sourceTree = "<group>"; };
 		558918EE22089FFE00F182BA /* Measure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measure.swift; sourceTree = "<group>"; };
 		DD8C8D812A2C079E0051BEFF /* IMG_0101.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0101.jpeg; sourceTree = "<group>"; };
-		DDE62DF12A2D37D300369AA1 /* best.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = best.mlpackage; path = ../../../../../best.mlpackage; sourceTree = "<group>"; };
+		DDE62DF72A2D3FA900369AA1 /* best.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = best.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 		71B8322222E2B0B200207D05 /* mlmodel */ = {
 			isa = PBXGroup;
 			children = (
-				DDE62DF12A2D37D300369AA1 /* best.mlpackage */,
+				DDE62DF72A2D3FA900369AA1 /* best.mlpackage */,
 			);
 			path = mlmodel;
 			sourceTree = "<group>";
@@ -239,7 +239,7 @@
 			files = (
 				553366C62204898800A67647 /* ObjectDetection_CoreMLTests.swift in Sources */,
 				C427E6B228C5D85B001279AD /* UIImage+CVPixelBuffer.swift in Sources */,
-				DDE62DF32A2D37D300369AA1 /* best.mlpackage in Sources */,
+				DDE62DF92A2D3FA900369AA1 /* best.mlpackage in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +253,7 @@
 				553366CF220489DD00A67647 /* UIImage+CVPixelBuffer.swift in Sources */,
 				554F14AE220362DA00B828B0 /* VideoCapture.swift in Sources */,
 				554F149C220362AB00B828B0 /* AppDelegate.swift in Sources */,
-				DDE62DF22A2D37D300369AA1 /* best.mlpackage in Sources */,
+				DDE62DF82A2D3FA900369AA1 /* best.mlpackage in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
